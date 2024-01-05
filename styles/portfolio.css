@@ -114,6 +114,7 @@ nav li a {
 }
 
 .content-description {
+    text-align: left;
     margin-bottom: 30px;
     color: #757575;
     font-family: Open Sans;
@@ -271,7 +272,106 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    margin: 0;
 }
-.skill img{
+
+.skill img {
     margin-bottom: 30px;
+}
+
+.resume {
+    width: 1140px;
+    margin: 130px auto;
+}
+
+.resume>h2 {
+    margin-bottom: 100px;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.edex {
+    display: flex;
+    justify-content: center;
+    gap: 71px;
+}
+
+.ed {
+    flex-basis: 50%;
+}
+
+.ex {
+    flex-basis: 50%;
+}
+
+.ed>h2 {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.ex>h2 {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.edu {
+    text-align: left;
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+.edu h2 {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.edu h3 {
+    margin-bottom: 20px;
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.edu p {
+    text-align: left;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.btn-uncv {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* footer area */
+
+footer{
+    background: #FFF8F3;
+}
+.footer-area{
+    width: 1140px;
+    margin: 0 auto;
 }
