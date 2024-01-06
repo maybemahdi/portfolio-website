@@ -471,3 +471,7 @@ input {
     line-height: normal;
     padding: 15px 39px;
 }
+.copy{
+    text-align: center;
+    margin-bottom: 20px;
+}
