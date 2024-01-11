@@ -481,13 +481,18 @@ input {
 }
 
 
+
+
+
 /* Responsive  */
 
 @media screen and (max-width:576px) {
     body {
         width: 100vw;
     }
-
+    button{
+        font-size: 14px;
+    }
     .header {
         background-image: none;
         width: 100%;
@@ -498,7 +503,8 @@ input {
     nav ul,
     .about-info-container,
     .skills,
-    .resume .container .edex {
+    .resume .container .edex,
+    .footer-area {
         flex-direction: column;
     }
 
@@ -590,5 +596,31 @@ input {
     }
     .resume>h2{
         font-size: 32px;
+    }
+    .btn-uncv button{
+        padding: 11px 17px;
+        font-size: 14px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    .footer-area{
+        width: 100vw;
+        gap: 50px;
+        padding: 25px;
+    }
+    .footer-area .left-side, .right-side{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .left-side p{
+        font-size: 14px;
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    .right-side form textarea{
+        width: 100%;
     }
 }
